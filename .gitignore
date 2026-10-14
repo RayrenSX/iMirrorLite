@@ -1,0 +1,14 @@
+.tools/
+.gradle/
+**/.cxx/
+.idea/
+**/build/
+local.properties
+*.iml
+*.jks
+*.keystore
+*.hprof
+.DS_Store
+__pycache__/
+*.py[cod]
+artifacts/

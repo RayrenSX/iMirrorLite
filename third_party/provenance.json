@@ -1,0 +1,54 @@
+{
+  "iUsbBridge": {
+    "source": "https://github.com/RayrenSX/iUsbBridge",
+    "file": "src/iostouch/qt/usbmux_usb.py",
+    "sha256": "1c719a7d42bd3dcc1323b4356faf5f1e06ca2de79de3974ba43637fb824e99b2"
+  },
+  "iPhoneMirror_five_contact": {
+    "source": "https://github.com/RayrenSX/iPhoneMirror",
+    "local_head_at_port": "829c5919f25718efc91f3fae4ee1e808f193964d",
+    "note": "Hashes identify local source bytes, including any working tree changes.",
+    "files": [
+      {
+        "file": "tools/usb_touch_bridge.py",
+        "sha256": "6758ffe3e0f2a9315ed881305aab7a78c690ec0d430a578fd15d88de2993731f"
+      },
+      {
+        "file": "docs/FIVE_POINT_TOUCH.md",
+        "sha256": "d5af188ac2b58af505a5a5b710f49ee68ad2fc34f8f67e72b5642db948151b78"
+      },
+      {
+        "file": "tools/five_point_touch_page.py",
+        "sha256": "67d84ca71b4db6964929889301c6fee58f94e542860cd99c4f6c9d77a42dc951"
+      }
+    ],
+    "adapted_into": [
+      "app/src/main/python/imirror/hid.py",
+      "app/src/main/python/imirror/control.py",
+      "scripts/serve-touch-observer.py"
+    ]
+  },
+  "wireless": {
+    "UxPlay": {
+      "source": "https://github.com/FDH2/UxPlay",
+      "commit": "aec205d49302df8d4eb291b9e927ed428b2d0166",
+      "files": {
+        "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "playfair\\CMakeLists.txt": "70ecc4531ef7f695390265a8ef400552c4f22bfaf291140cde187ea47203da03",
+        "playfair\\hand_garble.c": "cac6be5bb721e07d36d44577d112de63b40b8a12dd663495cd7cd600ab8743e4",
+        "playfair\\LICENSE.md": "0b7cf235e6136b426f00870c3200bac308950973d062a733bdc3fc1eca36fa06",
+        "playfair\\modified_md5.c": "850c815fd99c9f8459e2ff323c25963e20873328b838cda33fff88400fba2667",
+        "playfair\\omg_hax.c": "1bfdce59d4b462cf3b5c39f3d8b3f0f6a9c20eccf003128f972bcc7572f50823",
+        "playfair\\omg_hax.h": "839517a07a208435bce0f789f3c7a3b10d698f65509fdb6a2e601249ac4e3e88",
+        "playfair\\playfair.c": "322077cfb1f4ca555c302ec4f4f718c7daa42fbb358f9c7738e95d522263b707",
+        "playfair\\playfair.h": "5160ba53c5557f207d81998cc17a126ecb07842dc157c002ed54b397c536e613",
+        "playfair\\sap_hash.c": "ec90021e184776e825582486588d3edf61f70b494bf74915e28bd6d37870a70d"
+      }
+    },
+    "pymobiledevice3": {
+      "version": "11.3.1",
+      "wheel_sha256": "2399c1500383f3ac514409436eb3151654aa59e594bfcd60fdf6a5229d8a694e",
+      "tunnel_service_sha256": "189e87ff386c221576416d3d23ed582b6ffdbcc0a026aa4e99615af40f127d29"
+    }
+  }
+}

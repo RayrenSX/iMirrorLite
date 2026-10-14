@@ -1,0 +1,10 @@
+{
+  "commit": "6eae353ae694bda1c421d4a3eee5459ae59c99a1",
+  "build": "27A5228h",
+  "sha256": {
+    "Image.dmg": "05fd807da5e19f030fa4941f24800c965c6c77982ab572dd5d1ef778fb69f9ca",
+    "BuildManifest.plist": "8edd4a2f4f4ef1fbd7bfe49785d8badc673d1395d1d94d85b132ca8ab5ecaf54",
+    "Image.dmg.trustcache": "36af60889ff5a737874a26daeb8e1a0139ebfebec6ec2e4d8f6a3c1bf1dce35c"
+  },
+  "source": "https://github.com/doronz88/DeveloperDiskImage"
+}
